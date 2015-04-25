@@ -15,5 +15,5 @@ after_success:
 - git config --global push.default simple
 - git add preview/$TAG.html
 - git commit preview/$TAG.html -m "$TAG"
-- git push https://2q1w2007:5d77c90e21c0a445f7fecf15a18ea845ecf77fb7@github.com/2q1w2007/LFS-BOOK-7.7-systemd master
+- git push git://2q1w2007:5d77c90e21c0a445f7fecf15a18ea845ecf77fb7@github.com/2q1w2007/LFS-BOOK-7.7-systemd master
 
