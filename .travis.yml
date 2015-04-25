@@ -5,6 +5,7 @@ branches:
   only:
     - master
 before_install:
+- git checkout master
 - sudo apt-get install docbook docbook-defguide docbook-dsssl docbook-xml libxml2-utils libxslt1-dev libhtml-tidy-perl make xsltproc tidy fop
 script: make nochunks
 after_success:
