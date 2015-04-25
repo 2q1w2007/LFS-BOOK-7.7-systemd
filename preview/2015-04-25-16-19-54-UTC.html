@@ -12438,20 +12438,20 @@ install -v -Dm644 ../glibc-2.21/nscd/nscd.service /lib/systemd/system/nscd.servi
               <pre class="userinput">
 <kbd class="command">mkdir -pv /usr/lib/locale
 localedef -i cs_CZ -f UTF-8 cs_CZ.UTF-8
-localedef -i de_DE -f ISO-8859-1 de_DE
-localedef -i de_DE@euro -f ISO-8859-15 de_DE@euro
+localedef -i de_DE -f UTF-8 de_DE
+localedef -i de_DE@euro -f UTF-85 de_DE@euro
 localedef -i de_DE -f UTF-8 de_DE.UTF-8
 localedef -i en_GB -f UTF-8 en_GB.UTF-8
-localedef -i en_HK -f ISO-8859-1 en_HK
-localedef -i en_PH -f ISO-8859-1 en_PH
-localedef -i en_US -f ISO-8859-1 en_US
+localedef -i en_HK -f UTF-8 en_HK
+localedef -i en_PH -f UTF-8 en_PH
+localedef -i en_US -f UTF-8 en_US
 localedef -i en_US -f UTF-8 en_US.UTF-8
-localedef -i es_MX -f ISO-8859-1 es_MX
+localedef -i es_MX -f UTF-8 es_MX
 localedef -i fa_IR -f UTF-8 fa_IR
-localedef -i fr_FR -f ISO-8859-1 fr_FR
-localedef -i fr_FR@euro -f ISO-8859-15 fr_FR@euro
+localedef -i fr_FR -f UTF-8 fr_FR
+localedef -i fr_FR@euro -f UTF-85 fr_FR@euro
 localedef -i fr_FR -f UTF-8 fr_FR.UTF-8
-localedef -i it_IT -f ISO-8859-1 it_IT
+localedef -i it_IT -f UTF-8 it_IT
 localedef -i it_IT -f UTF-8 it_IT.UTF-8
 localedef -i ja_JP -f EUC-JP ja_JP
 localedef -i ru_RU -f KOI8-R ru_RU.KOI8-R
@@ -28860,7 +28860,7 @@ cp -R -v docs/doc/* /usr/share/doc/kbd-2.0.2</kbd>
                         <p>
                           Puts the keyboard and console in UNICODE mode
                           [Don't use this program unless your keymap file is
-                          in the ISO-8859-1 encoding. For other encodings,
+                          in the UTF-8 encoding. For other encodings,
                           this utility produces incorrect results.]
                         </p>
                       </td>
@@ -32521,7 +32521,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Danish (da)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Croatian (hr)
@@ -32535,7 +32535,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           German (de)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Hungarian (hu)
@@ -32549,7 +32549,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           English (en)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Japanese (ja)
@@ -32563,7 +32563,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Spanish (es)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Korean (ko)
@@ -32577,13 +32577,13 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Estonian (et)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Lithuanian (lt)
                         </td>
                         <td>
-                          ISO-8859-13
+                          UTF-83
                         </td>
                       </tr>
                       <tr>
@@ -32591,13 +32591,13 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Finnish (fi)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Latvian (lv)
                         </td>
                         <td>
-                          ISO-8859-13
+                          UTF-83
                         </td>
                       </tr>
                       <tr>
@@ -32605,7 +32605,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           French (fr)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Macedonian (mk)
@@ -32619,7 +32619,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Irish (ga)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Polish (pl)
@@ -32633,7 +32633,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Galician (gl)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Romanian (ro)
@@ -32647,7 +32647,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Indonesian (id)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Russian (ru)
@@ -32661,7 +32661,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Icelandic (is)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Slovak (sk)
@@ -32675,7 +32675,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Italian (it)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Slovenian (sl)
@@ -32689,7 +32689,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Norwegian Bokmal (nb)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Serbian Latin (sr@latin)
@@ -32703,7 +32703,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Dutch (nl)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Serbian (sr)
@@ -32717,7 +32717,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Norwegian Nynorsk (nn)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Turkish (tr)
@@ -32731,7 +32731,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Norwegian (no)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Ukrainian (uk)
@@ -32745,7 +32745,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Portuguese (pt)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Vietnamese (vi)
@@ -32759,7 +32759,7 @@ su nobody -s /bin/bash -c "PATH=$PATH make -k check"</kbd>
                           Swedish (sv)
                         </td>
                         <td>
-                          ISO-8859-1
+                          UTF-8
                         </td>
                         <td>
                           Simplified Chinese (zh_CN)
@@ -35515,7 +35515,7 @@ EOF</kbd>
             <p>
               Charmaps can have a number of aliases, e.g., <span class=
               "quote">&ldquo;<span class=
-              "quote">ISO-8859-1</span>&rdquo;</span> is also referred to as
+              "quote">UTF-8</span>&rdquo;</span> is also referred to as
               <span class="quote">&ldquo;<span class=
               "quote">iso8859-1</span>&rdquo;</span> and <span class=
               "quote">&ldquo;<span class=
@@ -35544,12 +35544,12 @@ EOF</kbd>
               command will print:
             </p>
             <pre class="screen">
-<code class="computeroutput">ISO-8859-1</code>
+<code class="computeroutput">UTF-8</code>
 </pre>
             <p>
               This results in a final locale setting of <span class=
               "quote">&ldquo;<span class=
-              "quote">en_GB.ISO-8859-1</span>&rdquo;</span>. It is important
+              "quote">en_GB.UTF-8</span>&rdquo;</span>. It is important
               that the locale found using the heuristic above is tested prior
               to it being added to the Bash startup files:
             </p>
@@ -35593,12 +35593,12 @@ LC_ALL=&lt;locale name&gt; locale int_prefix</kbd>
             <p>
               In several cases Xlib expects that the character map will be
               listed in uppercase notation with canonical dashes. For
-              instance, "ISO-8859-1" rather than "iso88591". It is also
+              instance, "UTF-8" rather than "iso88591". It is also
               possible to find an appropriate specification by removing the
               charmap part of the locale specification. This can be checked
               by running the <span class="command"><strong>locale
               charmap</strong></span> command in both locales. For example,
-              one would have to change "de_DE.ISO-8859-15@euro" to
+              one would have to change "de_DE.UTF-85@euro" to
               "de_DE@euro" in order to get this locale recognized by Xlib.
             </p>
             <p>

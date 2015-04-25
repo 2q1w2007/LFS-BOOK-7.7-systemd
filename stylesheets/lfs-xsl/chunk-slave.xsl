@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='UTF-8'?>
 
 <!--
 $LastChangedBy: krejzi $
@@ -15,8 +15,8 @@ $Date: 2013-12-10 23:37:38 +0000 (Tue, 10 Dec 2013) $
   <!-- Upstream XHTML presentation templates -->
   <xsl:import href="docbook-xsl-1.78.1/xhtml/docbook.xsl"/>
 
-  <!-- Use ISO-8859-1 for output instead of default UTF-8 -->
-  <xsl:param name="chunker.output.encoding" select="'ISO-8859-1'"/>
+  <!-- Use UTF-8 for output instead of default UTF-8 -->
+  <xsl:param name="chunker.output.encoding" select="'UTF-8'"/>
 
   <!-- Including our customized elements templates -->
   <xsl:include href="common.xsl"/>
