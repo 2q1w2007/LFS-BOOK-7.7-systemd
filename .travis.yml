@@ -1,21 +1,21 @@
-language java
-sudo required
-cache apt
-branches
-  only
+language: java
+sudo: required
+cache: apt
+branches:
+  only:
     - master
-before_install
+before_install:
 - git checkout master
 - sudo apt-get install docbook docbook-defguide docbook-dsssl docbook-xml libxml2-utils libxslt1-dev libhtml-tidy-perl make xsltproc tidy fop
-script make nochunks
-after_success
-- export TAG=$(date -u +%F-%H-%M-%S-UTC)
-- mv hometravislfs-bookLFS-BOOK.html .preview$TAG.html
-- git config --global user.email 2q1w2007@163.com
-- git config --global user.name Junkai
+script: make nochunks
+after_success:
+- export TAG=$(date -u "+%F-%H-%M-%S-UTC")
+- mv /home/travis/lfs-book/LFS-BOOK.html ./preview/$TAG.html
+- git config --global user.email "2q1w2007@163.com"
+- git config --global user.name "Junkai"
 - git config --global push.default simple
 - git rm .travis.yml
-- git add preview$TAG.html
-- git commit -a -m $TAG
+- git add preview/$TAG.html
+- git commit -a -m "$TAG"
 - git status
-- git push https2q1w20075d77c90e21c0a445f7fecf15a18ea845ecf77fb7@github.com2q1w2007LFS-BOOK-7.7-systemd.git master
+- git push https://2q1w2007:5d77c90e21c0a445f7fecf15a18ea845ecf77fb7@github.com/2q1w2007/LFS-BOOK-7.7-systemd.git master
