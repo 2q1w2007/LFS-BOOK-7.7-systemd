@@ -1,379 +1,534 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-  "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-  <!ENTITY % general-entities SYSTEM "../general.ent">
-  %general-entities;
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % general-entities SYSTEM "../general.ent">
+%general-entities;
 ]>
-
 <appendix id="appendixa" xreflabel="Appendix A">
   <?dbhtml dir="appendices"?>
+
   <?dbhtml filename="acronymlist.html"?>
 
   <title>Acronyms and Terms</title>
 
   <variablelist>
     <?dbfo list-presentation="list"?>
+
     <?dbhtml list-presentation="table"?>
 
     <varlistentry>
       <term><emphasis role="bold">ABI</emphasis></term>
+
       <listitem>
         <para>Application Binary Interface</para>
+
+        <para>应用程序二进制接口</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">ALFS</emphasis></term>
+
       <listitem>
         <para>Automated Linux From Scratch</para>
+
+        <para>自动化 LFS</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">API</emphasis></term>
+
       <listitem>
         <para>Application Programming Interface</para>
+
+        <para>应用程序设计接口</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">ASCII</emphasis></term>
+
       <listitem>
         <para>American Standard Code for Information Interchange</para>
+
+        <para>美国信息交换标准代码</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">BIOS</emphasis></term>
+
       <listitem>
         <para>Basic Input/Output System</para>
+
+        <para>基本输入/输出系统</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">BLFS</emphasis></term>
+
       <listitem>
         <para>Beyond Linux From Scratch</para>
+
+        <para/>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">BSD</emphasis></term>
+
       <listitem>
         <para>Berkeley Software Distribution</para>
+
+        <para>伯克利软件发行版</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">chroot</emphasis></term>
+
       <listitem>
         <para>change root</para>
+
+        <para>更改根目录</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">CMOS</emphasis></term>
+
       <listitem>
         <para>Complementary Metal Oxide Semiconductor</para>
+
+        <para>互补金属氧化物半导体</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">COS</emphasis></term>
+
       <listitem>
         <para>Class Of Service</para>
+
+        <para> 服务等级 </para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">CPU</emphasis></term>
+
       <listitem>
         <para>Central Processing Unit</para>
+
+        <para>中央处理单元</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">CRC</emphasis></term>
+
       <listitem>
         <para>Cyclic Redundancy Check</para>
+
+        <para>循环冗余码校验</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">CVS</emphasis></term>
+
       <listitem>
         <para>Concurrent Versions System</para>
+
+        <para>并发版本系统</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">DHCP</emphasis></term>
+
       <listitem>
         <para>Dynamic Host Configuration Protocol</para>
+
+        <para>动态主机配置协议</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">DNS</emphasis></term>
+
       <listitem>
         <para>Domain Name Service</para>
+
+        <para>域名服务</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">EGA</emphasis></term>
+
       <listitem>
         <para>Enhanced Graphics Adapter</para>
+
+        <para>增强型图形适配器</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">ELF</emphasis></term>
+
       <listitem>
         <para>Executable and Linkable Format</para>
+
+        <para>可执行和可链接格式</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">EOF</emphasis></term>
+
       <listitem>
         <para>End of File</para>
+
+        <para>文件或数据流结束标志</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">EQN</emphasis></term>
+
       <listitem>
         <para>equation</para>
+
+        <para>相等</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">ext2</emphasis></term>
+
       <listitem>
         <para>second extended file system</para>
+
+        <para>第二代可扩展文件系统</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">ext3</emphasis></term>
+
       <listitem>
         <para>third extended file system</para>
+
+        <para>第三代可扩展文件系统</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">ext4</emphasis></term>
+
       <listitem>
         <para>fourth extended file system</para>
+
+        <para>第四代可扩展文件系统</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">FAQ</emphasis></term>
+
       <listitem>
         <para>Frequently Asked Questions</para>
+
+        <para>常见问题</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">FHS</emphasis></term>
+
       <listitem>
         <para>Filesystem Hierarchy Standard</para>
+
+        <para>文件系统层次结构标准</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">FIFO</emphasis></term>
+
       <listitem>
         <para>First-In, First Out</para>
+
+        <para>先进先出</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">FQDN</emphasis></term>
+
       <listitem>
         <para>Fully Qualified Domain Name</para>
+
+        <para>完全合格的域名</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">FTP</emphasis></term>
+
       <listitem>
         <para>File Transfer Protocol</para>
+
+        <para>文件传输协议</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">GB</emphasis></term>
+
       <listitem>
         <para>Gigabytes</para>
+
+        <para>千兆字节</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">GCC</emphasis></term>
+
       <listitem>
         <para>GNU Compiler Collection</para>
+
+        <para>GNU 编译器集合</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">GID</emphasis></term>
+
       <listitem>
         <para>Group Identifier</para>
+
+        <para>组标志符</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">GMT</emphasis></term>
+
       <listitem>
         <para>Greenwich Mean Time</para>
+
+        <para>格林尼治标准时间</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">HTML</emphasis></term>
+
       <listitem>
         <para>Hypertext Markup Language</para>
+
+        <para>超文本标记语言</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">IDE</emphasis></term>
+
       <listitem>
         <para>Integrated Drive Electronics</para>
+
+        <para>智能磁盘设备，集成电路设备</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">IEEE</emphasis></term>
+
       <listitem>
         <para>Institute of Electrical and Electronic Engineers</para>
+
+        <para>电气与电子工程师学会</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">IO</emphasis></term>
+
       <listitem>
         <para>Input/Output</para>
+
+        <para>输入/输出</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">IP</emphasis></term>
+
       <listitem>
         <para>Internet Protocol</para>
+
+        <para>互联网协议</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">IPC</emphasis></term>
+
       <listitem>
         <para>Inter-Process Communication</para>
+
+        <para>进程间通信</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">IRC</emphasis></term>
+
       <listitem>
         <para>Internet Relay Chat</para>
+
+        <para>互联网中继聊天</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">ISO</emphasis></term>
+
       <listitem>
         <para>International Organization for Standardization</para>
+
+        <para>国际标准化组织</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">ISP</emphasis></term>
+
       <listitem>
         <para>Internet Service Provider</para>
+
+        <para>因特网服务提供者</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">KB</emphasis></term>
+
       <listitem>
         <para>Kilobytes</para>
+
+        <para>千字节</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">LED</emphasis></term>
+
       <listitem>
         <para>Light Emitting Diode</para>
+
+        <para>发光二极管</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">LFS</emphasis></term>
+
       <listitem>
         <para>Linux From Scratch</para>
+
+        <para/>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">LSB</emphasis></term>
+
       <listitem>
         <para>Linux Standard Base</para>
+
+        <para/>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">MB</emphasis></term>
+
       <listitem>
         <para>Megabytes</para>
+
+        <para>兆字节</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">MBR</emphasis></term>
+
       <listitem>
         <para>Master Boot Record</para>
+
+        <para>主引导记录</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">MD5</emphasis></term>
+
       <listitem>
         <para>Message Digest 5</para>
+
+        <para>信息摘要算法第五版</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">NIC</emphasis></term>
+
       <listitem>
         <para>Network Interface Card</para>
+
+        <para>网络接口卡</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">NLS</emphasis></term>
+
       <listitem>
         <para>Native Language Support</para>
+
+        <para>本地语言支持</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">NNTP</emphasis></term>
+
       <listitem>
         <para>Network News Transport Protocol</para>
+
+        <para>网络新闻传输协议</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">NPTL</emphasis></term>
+
       <listitem>
         <para>Native POSIX Threading Library</para>
+
+        <para>本地 POSIX 线程库</para>
       </listitem>
     </varlistentry>
 
     <varlistentry>
       <term><emphasis role="bold">OSS</emphasis></term>
+
       <listitem>
         <para>Open Sound System</para>
       </listitem>
@@ -381,6 +536,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">PCH</emphasis></term>
+
       <listitem>
         <para>Pre-Compiled Headers</para>
       </listitem>
@@ -388,6 +544,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">PCRE</emphasis></term>
+
       <listitem>
         <para>Perl Compatible Regular Expression</para>
       </listitem>
@@ -395,6 +552,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">PID</emphasis></term>
+
       <listitem>
         <para>Process Identifier</para>
       </listitem>
@@ -402,6 +560,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">PTY</emphasis></term>
+
       <listitem>
         <para>pseudo terminal</para>
       </listitem>
@@ -409,6 +568,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">QOS</emphasis></term>
+
       <listitem>
         <para>Quality Of Service</para>
       </listitem>
@@ -416,6 +576,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">RAM</emphasis></term>
+
       <listitem>
         <para>Random Access Memory</para>
       </listitem>
@@ -423,6 +584,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">RPC</emphasis></term>
+
       <listitem>
         <para>Remote Procedure Call</para>
       </listitem>
@@ -430,6 +592,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">RTC</emphasis></term>
+
       <listitem>
         <para>Real Time Clock</para>
       </listitem>
@@ -437,6 +600,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">SBU</emphasis></term>
+
       <listitem>
         <para>Standard Build Unit</para>
       </listitem>
@@ -444,6 +608,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">SCO</emphasis></term>
+
       <listitem>
         <para>The Santa Cruz Operation</para>
       </listitem>
@@ -451,6 +616,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">SHA1</emphasis></term>
+
       <listitem>
         <para>Secure-Hash Algorithm 1</para>
       </listitem>
@@ -458,6 +624,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">TLDP</emphasis></term>
+
       <listitem>
         <para>The Linux Documentation Project</para>
       </listitem>
@@ -465,6 +632,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">TFTP</emphasis></term>
+
       <listitem>
         <para>Trivial File Transfer Protocol</para>
       </listitem>
@@ -472,6 +640,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">TLS</emphasis></term>
+
       <listitem>
         <para>Thread-Local Storage</para>
       </listitem>
@@ -479,6 +648,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">UID</emphasis></term>
+
       <listitem>
         <para>User Identifier</para>
       </listitem>
@@ -486,6 +656,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">umask</emphasis></term>
+
       <listitem>
         <para>user file-creation mask</para>
       </listitem>
@@ -493,6 +664,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">USB</emphasis></term>
+
       <listitem>
         <para>Universal Serial Bus</para>
       </listitem>
@@ -500,6 +672,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">UTC</emphasis></term>
+
       <listitem>
         <para>Coordinated Universal Time</para>
       </listitem>
@@ -507,6 +680,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">UUID</emphasis></term>
+
       <listitem>
         <para>Universally Unique Identifier</para>
       </listitem>
@@ -514,6 +688,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">VC</emphasis></term>
+
       <listitem>
         <para>Virtual Console</para>
       </listitem>
@@ -521,6 +696,7 @@
 
     <varlistentry>
       <term><emphasis role="bold">VGA</emphasis></term>
+
       <listitem>
         <para>Video Graphics Array</para>
       </listitem>
@@ -528,11 +704,10 @@
 
     <varlistentry>
       <term><emphasis role="bold">VT</emphasis></term>
+
       <listitem>
         <para>Virtual Terminal</para>
       </listitem>
     </varlistentry>
-
   </variablelist>
-
 </appendix>
